@@ -4,7 +4,7 @@ FROM alpine:3.8@sha256:621c2f39f8133acb8e64023a94dbdf0d5ca81896102b9e57c0dc184ca
 LABEL description="Docker image for running your own Syncthing Discovery Server."
 LABEL maintainer="HD Stich <hd.stich.io>"
 
-ENV STDISCOSRV_VERSION=v1.1.0
+ENV STDISCOSRV_VERSION=v1.0.1
 ENV STDISCOSRV_BINARY=stdiscosrv-linux-amd64-${STDISCOSRV_VERSION}
 
 RUN apk add --update libc6-compat libstdc++ \
